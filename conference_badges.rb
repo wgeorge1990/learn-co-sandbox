@@ -13,7 +13,7 @@ end
 
 def assign_rooms(speakers,room=7)
   speakers.each_with_index do | name, index |
-     puts “” < print #{speakers}, #{room}
+     puts “” < print #{name}, #{index}
   end
 end
 
